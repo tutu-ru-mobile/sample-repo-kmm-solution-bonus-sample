@@ -15,7 +15,7 @@ android {
     buildToolsVersion(ANDROID_BUILD_TOOLS_VERSION)
 
     defaultConfig {
-        applicationId("com.sample.solution_bonus")
+        applicationId("com.sample.solution.bonus")
         minSdkVersion(ANDROID_MIN_SDK)
         targetSdkVersion(ANDROID_TARGET_SDK)
         versionCode(1)

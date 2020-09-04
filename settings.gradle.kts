@@ -20,12 +20,9 @@
 ////  }
 //}
 
-
+rootProject.name = "solution-bonus-sample"
 include("solution-bonus-impl")
-project(":solution-bonus-impl").projectDir = file("solution")
-include("solution-bonus-impl-sample-android")
-project(":solution-bonus-impl-sample-android").projectDir = file("sample-android")
-
+include("sample-android")
 include("solution-bonus-api")
 include("solution-ab-api")
 include("lib-basic")
