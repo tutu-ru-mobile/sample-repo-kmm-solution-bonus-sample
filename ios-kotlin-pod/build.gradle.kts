@@ -19,12 +19,7 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                api(project(":solution-bonus-impl"))
-                api(project(":solution-bonus-api"))
-                api(project(":solution-ab-api"))
-                api(project(":lib-basic"))
-                api(project(":entity-ticket"))
-                api(project(":app-di"))
+                implementation(project(":app-di"))
             }
         }
     }
