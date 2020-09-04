@@ -14,7 +14,7 @@ target 'BonusSolutionSampleIos' do
   pod 'lib_basic_swift', :path => 'lib-basic/src/iOSMain/swift'
   pod 'solution_ab_api_swift', :path => 'solution-ab-api/src/iOSMain/swift'
   pod 'solution_bonus_api_swift', :path => 'solution-bonus-api/src/iOSMain/swift'
-  pod 'solution_bonus_impl_swift', :path => 'solution/src/iOSMain/swift'
+  pod 'solution_bonus_impl_swift', :path => 'solution-bonus-impl/src/iOSMain/swift'
 
   # Pods for BonusSolutionSampleIos
 
