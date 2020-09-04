@@ -29,3 +29,5 @@ project(":solution-bonus-impl-sample-android").projectDir = file("sample-android
 include("solution-bonus-api")
 include("solution-ab-api")
 include("lib-basic")
+include("entity-ticket")
+include("app-di")
