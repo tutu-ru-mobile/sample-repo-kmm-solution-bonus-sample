@@ -91,3 +91,7 @@ apikey.properties
 SolutionArchitecture.xcworkspace
 Pods
 
+buildSrc
+lib-basic
+solution-ab-api
+solution-bonus-api
