@@ -1,37 +1,37 @@
 PODS:
-  - app_di (1.0)
   - app_di_swift (0.0.1):
-    - app_di
+    - ios_kotlin_pod
     - lib_basic_swift
     - solution_ab_api_swift
     - solution_bonus_api_swift
     - solution_bonus_impl_swift
+  - ios_kotlin_pod (1.0)
   - lib_basic_swift (0.0.1):
-    - app_di
+    - ios_kotlin_pod
   - solution_ab_api_swift (0.0.1):
-    - app_di
+    - ios_kotlin_pod
     - lib_basic_swift
   - solution_bonus_api_swift (0.0.1):
-    - app_di
+    - ios_kotlin_pod
     - lib_basic_swift
   - solution_bonus_impl_swift (0.0.1):
-    - app_di
+    - ios_kotlin_pod
     - lib_basic_swift
     - solution_bonus_api_swift
 
 DEPENDENCIES:
-  - app_di (from `app-di`)
   - app_di_swift (from `app-di/src/iOSMain/swift`)
+  - ios_kotlin_pod (from `ios-kotlin-pod`)
   - lib_basic_swift (from `lib-basic/src/iOSMain/swift`)
   - solution_ab_api_swift (from `solution-ab-api/src/iOSMain/swift`)
   - solution_bonus_api_swift (from `solution-bonus-api/src/iOSMain/swift`)
   - solution_bonus_impl_swift (from `solution-bonus-impl/src/iOSMain/swift`)
 
 EXTERNAL SOURCES:
-  app_di:
-    :path: app-di
   app_di_swift:
     :path: app-di/src/iOSMain/swift
+  ios_kotlin_pod:
+    :path: ios-kotlin-pod
   lib_basic_swift:
     :path: lib-basic/src/iOSMain/swift
   solution_ab_api_swift:
@@ -42,13 +42,13 @@ EXTERNAL SOURCES:
     :path: solution-bonus-impl/src/iOSMain/swift
 
 SPEC CHECKSUMS:
-  app_di: 33e2a37ff00a6c4907abe3675c7ec86e7571eb89
-  app_di_swift: 547a55384eec1c5bbf13d7a07027bd187d41dbe6
-  lib_basic_swift: 32bb76bed6f6b3ad71e3f686e315f8ca16f229f5
-  solution_ab_api_swift: dfa15a8597441bb7fd18b80b94fea8ca234abf10
-  solution_bonus_api_swift: 1d288f84ceb5ec2d300bbaf07478891bd96ce668
-  solution_bonus_impl_swift: 797e365f5c2c2651f6ea6a0442d2fc4d150f4a82
+  app_di_swift: ac84822d2f3ab425246b4da8d73fdac3fadd17f9
+  ios_kotlin_pod: 73b3b882aa2766416b7711e8dbfc54b4b2d3dcd9
+  lib_basic_swift: 8ed50701b93fb992d87e2bd0419b84a13299ad9a
+  solution_ab_api_swift: 16b50516202dbebcee7e6d939928027a444eff2a
+  solution_bonus_api_swift: 792d2852ec42bb19e6cb97342ff0d8f4f3ac1403
+  solution_bonus_impl_swift: 63d0296a5e67072f1a79814ada47604a718788af
 
-PODFILE CHECKSUM: fdf32a84e7a94bfd0c7353191d2ff40de471c993
+PODFILE CHECKSUM: 70c1df8e3e794836441b797637904bbd8bc23797
 
 COCOAPODS: 1.9.3

@@ -9,7 +9,7 @@ target 'BonusSolutionSampleIos' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   project 'BonusSolutionSampleIos/BonusSolutionSampleIos.xcodeproj' #todo path sample-ios
-  pod 'app_di', :path => 'app-di'
+  pod 'ios_kotlin_pod', :path => 'ios-kotlin-pod'
   pod 'app_di_swift', :path => 'app-di/src/iOSMain/swift'
   pod 'lib_basic_swift', :path => 'lib-basic/src/iOSMain/swift'
   pod 'solution_ab_api_swift', :path => 'solution-ab-api/src/iOSMain/swift'

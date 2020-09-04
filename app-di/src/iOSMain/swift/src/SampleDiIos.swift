@@ -2,10 +2,10 @@ import SwiftUI
 import Foundation
 import solution_bonus_api_swift
 import solution_bonus_impl_swift
-import app_di
+import ios_kotlin_pod
 
 public class SampleDiIos {
-    public let common = SampleDi()
+    public let common = App_diSampleDi()
     lazy public var solutionBonusIos = SolutionBonusIosImpl(
             common: common.solutionBonus
     )
