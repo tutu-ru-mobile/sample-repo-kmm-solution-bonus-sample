@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "app_di_swift"
+  s.name         = "sample_di_swift"
   s.version      = "0.0.1"
   s.summary      = "A long description of objc."
   s.source       = { :git => "http://foo/objc.git", :tag => "#{s.version}" }

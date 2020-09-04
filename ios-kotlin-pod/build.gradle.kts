@@ -12,14 +12,14 @@ kotlin {
     cocoapods() {
         ios.deploymentTarget = "13.0"
         ios.name//read only
-        summary = "solution-bonus-app-di module"
+        summary = "solution-bonus-sample module"
         homepage = "homepage placeholder"
     }
 
     sourceSets {
         val commonMain by getting {
             dependencies {
-                implementation(project(":app-di"))
+                implementation(project(":sample-di"))
             }
         }
     }

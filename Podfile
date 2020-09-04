@@ -10,7 +10,7 @@ target 'BonusSolutionSampleIos' do
   use_frameworks!
   project 'sample-ios/BonusSolutionSampleIos.xcodeproj'
   pod 'ios_kotlin_pod', :path => 'ios-kotlin-pod'
-  pod 'app_di_swift', :path => 'app-di/src/iOSMain/swift'
+  pod 'sample_di_swift', :path => 'sample-di/src/iOSMain/swift'
   pod 'lib_basic_swift', :path => 'lib-basic/src/iOSMain/swift'
   pod 'solution_ab_api_swift', :path => 'solution-ab-api/src/iOSMain/swift'
   pod 'solution_bonus_api_swift', :path => 'solution-bonus-api/src/iOSMain/swift'

@@ -27,5 +27,5 @@ include("solution-bonus-api")
 include("solution-ab-api")
 include("lib-basic")
 include("entity-ticket")
-include("app-di")//todo sample-di
+include("sample-di")
 include("ios-kotlin-pod")
