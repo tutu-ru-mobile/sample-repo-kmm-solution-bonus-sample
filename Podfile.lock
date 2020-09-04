@@ -1,0 +1,54 @@
+PODS:
+  - app_di (1.0)
+  - app_di_swift (0.0.1):
+    - app_di
+    - lib_basic_swift
+    - solution_ab_api_swift
+    - solution_bonus_api_swift
+    - solution_bonus_impl_swift
+  - lib_basic_swift (0.0.1):
+    - app_di
+  - solution_ab_api_swift (0.0.1):
+    - app_di
+    - lib_basic_swift
+  - solution_bonus_api_swift (0.0.1):
+    - app_di
+    - lib_basic_swift
+  - solution_bonus_impl_swift (0.0.1):
+    - app_di
+    - lib_basic_swift
+    - solution_bonus_api_swift
+
+DEPENDENCIES:
+  - app_di (from `app-di`)
+  - app_di_swift (from `app-di/src/iOSMain/swift`)
+  - lib_basic_swift (from `lib-basic/src/iOSMain/swift`)
+  - solution_ab_api_swift (from `solution-ab-api/src/iOSMain/swift`)
+  - solution_bonus_api_swift (from `solution-bonus-api/src/iOSMain/swift`)
+  - solution_bonus_impl_swift (from `solution/src/iOSMain/swift`)
+
+EXTERNAL SOURCES:
+  app_di:
+    :path: app-di
+  app_di_swift:
+    :path: app-di/src/iOSMain/swift
+  lib_basic_swift:
+    :path: lib-basic/src/iOSMain/swift
+  solution_ab_api_swift:
+    :path: solution-ab-api/src/iOSMain/swift
+  solution_bonus_api_swift:
+    :path: solution-bonus-api/src/iOSMain/swift
+  solution_bonus_impl_swift:
+    :path: solution/src/iOSMain/swift
+
+SPEC CHECKSUMS:
+  app_di: 33e2a37ff00a6c4907abe3675c7ec86e7571eb89
+  app_di_swift: 547a55384eec1c5bbf13d7a07027bd187d41dbe6
+  lib_basic_swift: 32bb76bed6f6b3ad71e3f686e315f8ca16f229f5
+  solution_ab_api_swift: dfa15a8597441bb7fd18b80b94fea8ca234abf10
+  solution_bonus_api_swift: 1d288f84ceb5ec2d300bbaf07478891bd96ce668
+  solution_bonus_impl_swift: 797e365f5c2c2651f6ea6a0442d2fc4d150f4a82
+
+PODFILE CHECKSUM: 5176c080e89806fe23be5dfa0d14a32f35e4193c
+
+COCOAPODS: 1.9.3
