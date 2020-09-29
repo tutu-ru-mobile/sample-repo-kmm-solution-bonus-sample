@@ -26,7 +26,7 @@ class SampleDi {
     }
 
     private fun addUpdate(f: Flow<*>) {
-        launchCoroutineDirty {
+        launchAppScope {
             f.collect { update() }
         }
     }
@@ -42,7 +42,7 @@ class SampleDi {
     fun getLastState() = globalStateFlow.value
 
     fun addListener(listener: (GlobalState) -> Unit) {
-        launchCoroutineDirty {
+        launchAppScope {
             globalStateFlow.collectLatest {
                 listener(it)
             }
